@@ -10,5 +10,5 @@
   lib = import ./lib {inherit pkgs;}; # functions
   modules = import ./modules; # NixOS modules
   overlays = import ./overlays; # nixpkgs overlays
-  packages = import ./pkgs/by-name {inherit pkgs;}; # packages
+  packages = import ./pkgs {inherit pkgs;}; # packages
 }
