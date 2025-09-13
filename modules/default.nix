@@ -1,3 +1,3 @@
 {
-  snell-server = ./networking/snell-server.nix;
+  snell-server = ./networking/snell-server;
 }
